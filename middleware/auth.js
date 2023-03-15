@@ -4,7 +4,7 @@ const jwt = require("jsonwebtoken");
 const { SECRET_KEY } = require("../config");
 
 /** Middleware: Authenticate user. */
-
+1
 function authenticateJWT(req, res, next) {
   try {
     const tokenFromBody = req.body._token;
